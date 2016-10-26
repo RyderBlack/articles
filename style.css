@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+article {
+    border: 1.5px solid black;
+    width: 50%;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+}
+
+img {
+    float: left;
+    width: 200px;
+    height: 150px;
+}
+
+h2 {
+    text-align: center;
+    color: darkblue;
+}
+
+button {
+    right: 0;
+    top: 0;
+    position: absolute;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+p {
+    text-align: center;
+}
+
+article p:last-of-type:hover {
+    color: pink;
+}
